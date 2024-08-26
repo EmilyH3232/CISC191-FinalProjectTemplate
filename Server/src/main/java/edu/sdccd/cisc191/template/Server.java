@@ -41,7 +41,8 @@ public class Server {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        NumArray ab = new NumArray();
+        ab.print();
 //        Server server = new Server();
 //        try {
 //            server.start(4444);
